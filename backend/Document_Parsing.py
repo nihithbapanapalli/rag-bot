@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",  # Replace with your API key
+  api_key="",  # Replace with your API key
 )
 
 # Initialize FAISS and Sentence Transformer
